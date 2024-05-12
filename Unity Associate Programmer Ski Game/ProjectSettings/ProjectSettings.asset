@@ -674,10 +674,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: f676c0f2-58c2-4b84-a736-b76dc5c4c915
+  cloudProjectId: 70e172de-f313-4951-a3aa-5ef6dfadfa0a
   framebufferDepthMemorylessMode: 0
   projectName: Ski Game
-  organizationId: jason-232863
+  organizationId: sookram1208
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
