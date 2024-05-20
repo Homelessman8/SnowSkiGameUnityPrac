@@ -102,18 +102,18 @@ public class PlayerController : MonoBehaviour
     private void TurnLeft()
     {
         // rotates the player, limiting them after reaching a certain angle
-        if(transform.eulerAngles.y < 269)
+        if(transform.eulerAngles.y > 91)
         {
-            transform.Rotate(new Vector3(0, playerStats.turnSpeed, 0) * Time.deltaTime, Space.Self);
+            transform.Rotate(new Vector3(0, -playerStats.turnSpeed, 0) * Time.deltaTime, Space.Self);
         }
     }
 
     private void TurnRight()
     {
         // rotates the player, limiting them after reaching a certain angle
-        if (transform.eulerAngles.y > 91)
+        if (transform.eulerAngles.y < 269)
         {
-            transform.Rotate(new Vector3(0, -playerStats.turnSpeed, 0) * Time.deltaTime, Space.Self);
+            transform.Rotate(new Vector3(0, playerStats.turnSpeed, 0) * Time.deltaTime, Space.Self);
         }
     }
 

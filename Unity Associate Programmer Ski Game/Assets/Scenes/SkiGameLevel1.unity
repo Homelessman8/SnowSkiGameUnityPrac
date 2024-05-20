@@ -306,8 +306,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58675791}
-  m_LocalRotation: {x: 0.2096186, y: 0, z: 0, w: 0.97778326}
-  m_LocalPosition: {x: 101.400024, y: 5.1792183, z: -33.221207}
+  m_LocalRotation: {x: 0, y: 0.97778326, z: -0.2096186, w: 0}
+  m_LocalPosition: {x: 101.400055, y: 5.1792164, z: -14.978809}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -642,14 +642,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148052288}
-  m_LocalRotation: {x: 0.2096186, y: 0, z: 0, w: 0.97778326}
-  m_LocalPosition: {x: 101.400024, y: 5.1792183, z: -33.221207}
+  m_LocalRotation: {x: 0, y: 0.97778326, z: -0.2096186, w: 0}
+  m_LocalPosition: {x: 101.400055, y: 5.1792164, z: -14.978809}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1628866504}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 24.2, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 24.2, y: 180, z: 0}
 --- !u!1001 &154173123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4120,6 +4120,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Snow Man_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3665448684949034829, guid: 668caeef3f091244986846c489fc2dd6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149392523460021751, guid: 668caeef3f091244986846c489fc2dd6,
         type: 3}
