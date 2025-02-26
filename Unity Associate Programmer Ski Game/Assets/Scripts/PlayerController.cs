@@ -88,8 +88,8 @@ public class PlayerController : MonoBehaviour
 
             //move the player forward based on whice directiong they are facing
             Vector3 velocity = (transform.forward) * playerStats.speed * Time.fixedDeltaTime;
-            velocity.y = rb.velocity.y;
-            rb.velocity = velocity;
+            velocity.y = rb.linearVelocity.y;
+            rb.linearVelocity = velocity;
         }
 
         //Update the Animator's State depending on our speed;
